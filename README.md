@@ -45,3 +45,8 @@ To test the mixed metadata performance of a parallel file system like BeeGFS, si
 ### Matrix saving/loading workloads: MADbench2
 
 [MADbench2](https://crd.lbl.gov/divisions/scidata/c3/c3-research/madbench2/) is an I/O kernel derived from a cosmic microwave background data analysis application. It simulates the process of exchanging data between processes through matrix saving/loading and uses busy-work instead of real computations, focusing on HPC application I/O behavior while maintaining application complexity. The modified source code, configurations, and scripts can be found in `madbench2/`, corresponding to Fig.19 in the PeakFS paper.
+
+
+## Paper
+
+Yixiao Chen, Haomai Yang, Kai Lu*, Wenlve Huang, Jibin Wang, Jiguang Wan, Jian Zhou, Fei Wu, Changsheng Xie. PeakFS: An Ultra-high Performance Parallel File System via Computing-Network-Storage Co-optimization for HPC Applications. (TPDS 2024)
